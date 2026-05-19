@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form method="get" action="lampotila.php">
+        
+        <label for="lampotila">Lampotila:</label>
+        <input type="number" name="lampotila" step="0.01" min="-40" max="40">
+
+        <input type="submit" value="Muunna">
+
+        <br>
+
+        <p>Valitse muunnin:</p>
+
+        <input type="radio" id="C_to_F" name="muunnin" value="cf" checked>
+        <label for="C_to_F">Celsius → Fahrenheit</label>
+
+        <br>
+
+        <input type="radio" id="F_to_C" name="muunnin" value="fc">
+        <label for="F_to_C">Fahrenheit → Celsius</label>
+
+    </form>
+</body>
+</html>
