@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Taulukko</title>
+</head>
+<body>
+    <h2>Luo taulukko</h2>
+    <form action="table.php" method="POST">
+
+        <label>Rivien määrä:</label><br>
+        <input type="number" name="rivit" min="1" required><br><br>
+
+        <label>Sarakkeiden määrä:</label><br>
+        <input type="number" name="sarakkeet" min="1" required><br><br>
+
+        <label>Taulukon taustaväri:</label><br>
+        <input type="color" name="vari" value="#add8e6"><br><br>
+
+        <label>Tekstin väri:</label><br>
+        <input type="color" name="tekstivari" value="#000000"><br><br>
+
+        <input type="submit" value="Luo taulukko">
+
+    </form>
+
+</body>
+</html>
