@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oma portfolio</title>
+
+    <!-- CSS-tiedosto -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Yläpalkki -->
+    <header>
+        <h1>Elmeri Korhonen</h1>
+        <p>Tieto ja viestintätekniikan opiskelija</p>
+    </header>
+
+    <!-- Navigointi -->
+    <nav>
+        <a href="#tietoa">Tietoa minusta</a>
+        <a href="#projektit">Projektit</a>
+        <a href="#aikataulu">Aikataulu</a>
+        <a href="#yhteys">Yhteystiedot</a>
+    </nav>
+
+    <nav>  
+        <a href="#otayhteyttä">Ota yhteyttä</a>
+    </nav>
+
+    <!-- Tietoa minusta -->
+    <section id="tietoa">
+        <h2>Tietoa minusta</h2>
+
+        <p>
+            Olen Elmeri Korhonen, 17 vuotias ja opiskelen sakkyllä tieto ja viestintätekniikkaa. Olen kiinnostunut ohjelmoinnistaja minulla on kokemusta HTML:stä, CSS:stä ja C#. Tavoitteeni on kehittyä monipuoliseksi kehittäjäksi ja työskennellä mielenkiintoisissa projekteissa.
+            Olen luonteeltani utelias, sosiaalinen, ahkera ja tiimityöskentelyyn sopiva. Vapaa-ajalla harrastan kuntosalilla käymistä, mopoje rassaamista, pelaamista ja kavereiden kanssa hengailua.
+            Olen ollut töissä kohta vuoden Superoperator OY:ssä. Muuta aikaisempaa työkokemusta minulla on siivoamisesta ja ravintoloissa asiakaspalvelusta.
+            Olen pitänyt kaksi vuotta musiikki kerhoa lapsille kirkon nuorisotyössä. Olin myös partiossa yli 7 vuotta ja toimin siellä ryhmän johtajana alakouluikäisille. 
+            Yläkoulussa olin vastuussa joulu ja kevätjuhlien äänentoistosta ja hoidin pääosassa yhksin kaikki äänitehtävät ja valot eri tilaisuuksissa.
+        </p>
+
+        <img src="profiilikuva.jpg" alt="Profiilikuva">
+    </section>
+
+    <!-- Projektit -->
+    <section id="projektit">
+        <h2>Projektit</h2>
+
+        <article class="projekti">
+            <h3>golfgreencard-sivusto</h3>
+
+            <p>
+                Tein koulutehtävän golf green card sivusta, joka on linkitetty tästä. Sivustolla on tietoa green cardista, golfetiketistä ja golfin säännöistä. Sivusto on toteutettu HTML:llä ja CSS:llä.
+            </p>
+
+            <a href="teht10.html" target="_blank">
+                Katso projekti
+            </a>
+        </article>
+
+        <article class="projekti"> \*
+            <h3>strutsi-tietosivu</h3>
+
+            <p>
+                Tein koulutehtävän strutsin hoito-ohjeesta, joka on linkitetty tästä. Sivustolla on tietoa strutsin ruokinnasta. Sivusto on toteutettu HTML:llä ja CSS:llä.
+            </p>
+
+            <a href="teht9menu.html" target="_blank">
+                Katso projekti
+            </a>
+        </article>
+    </section>
+
+    <!-- Viikkoaikataulu -->
+    <section id="aikataulu">
+        <h2>Viikkoaikataulu</h2>
+        <p>tässä esimerkki viikkoaikataulustani kouluviikon aikana</p>
+
+        <table>
+            <tr>
+                <th>Päivä</th>
+                <th>Kellonaika</th>
+                <th>Tehtävä</th>
+            </tr>
+
+            <tr>
+                <td>Maanantai</td>
+                <td>09:00 - 15:00</td>
+                <td>koulua</td>
+            </tr>
+
+            <tr>
+                <td>Tiistai</td>
+                <td>10:00 - 16:00</td>
+                <td>koulua</td>
+            </tr>
+
+            <tr>
+                <td>Keskiviikko</td>
+                <td>08:00 - 14:00</td>
+                <td>koulua</td>
+            </tr>
+
+            <tr>
+                <td>Torstai</td>
+                <td>09:00 - 15:00</td>
+                <td>koulua</td>
+            </tr>
+
+            <tr>
+                <td>Perjantai</td>
+                <td>10:00 - 13:00</td>
+                <td>koulua</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Bonus-video -->
+    <section>
+        <h2>Esittelyvideo</h2>
+        <iframe 
+            width="560" height="315" src="https://www.youtube.com/embed/1JABdS-HN5A?si=N7cxQLUlOzHA3bC0" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+        </section>
+    
+    <section id="otayhteyttä">
+        <h2>Ota yhteyttä</h2>
+
+        <p>
+            Voit ottaa minuun yhteyttä sähköpostitse.
+        </p>
+    <form action="https://formspree.io/f/ABCDE" method="POST">
+
+        <input type="text" name="nimi" placeholder="Nimi">
+
+        <input type="email" name="email" placeholder="Sähköposti">
+
+        <textarea name="viesti"></textarea>
+
+        <button type="submit">Lähetä</button>
+
+</form>
+
+        
+        
+    <!-- Yhteystiedot -->
+    <footer id="yhteys">
+        <h2>Yhteystiedot</h2>
+
+        <p>Sähköposti: elmeri.korhonen@gmail.com</p>
+
+        <p>
+            tiktok: <a href="https://www.tiktok.com/@elmsteri1" target="_blank">
+                elmsteri1
+            </a>
+            instagram: <a href="https://www.instagram.com/elmsteri1/" target="_blank">
+                elmsteri1
+            </a>
+                
+        </p>
+    </footer>
+
+</body>
+</html>
