@@ -30,4 +30,6 @@
             }
         ?>
     </body>
-</html>
+</html>  //visual studio itse ehdotti mulle tällä tavalla, enkä osannut itse kirjoittaa tätä, mutta ymmärrän kyllä mitä se tekee.
+ //Se tarkistaa onko syötetty luku alkuluku vai ei.
+ // en ymmärrä ihan mitä kohdassa for tapahtuu mutta se toimii

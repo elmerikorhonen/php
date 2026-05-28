@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Lämpötilamuunnin</title>
+</head>
+<body>
+
+<h2>Lämpötilamuunnin</h2>
+
+<form action="muunnin.php" method="post">
+
+    <label>Anna lämpötila:</label>
+    <input type="number" name="lampotila" step="0.1" required>
+
+    <br><br>
+
+    <input type="radio" name="muunnos" value="CtoF" required>
+    Celsius → Fahrenheit
+
+    <input type="radio" name="muunnos" value="FtoC">
+    Fahrenheit → Celsius
+
+    <br><br>
+
+    <input type="submit" value="Muunna">
+
+</form>
+
+</body>
+</html>
