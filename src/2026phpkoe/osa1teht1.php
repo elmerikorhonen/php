@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>iän tarkistin</title>
+    <title>tehtävä 1</title>
     <meta charset="UTF-8">
 </head>
 <body>
